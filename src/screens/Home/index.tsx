@@ -1,6 +1,7 @@
 import React from 'react';
-import {Text} from 'react-native';
 
-const Home: React.FC = () => <Text>Home page</Text>;
+import Search from '../../components/Search';
+
+const Home: React.FC = () => <Search />;
 
 export default Home;
