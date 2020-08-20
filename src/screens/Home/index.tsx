@@ -1,18 +1,12 @@
 import React from 'react';
-import {View} from 'react-native';
+import {Container} from './styles';
 
-import Search from '../../components/Search';
-import Button from '../../components/Button';
-import SubItem from '../../components/SubItem';
-import Title from '../../components/Title';
+import HomeHeader from '../../components/HomeHeader';
 
 const Home: React.FC = () => (
-  <View>
-    <Title />
-    <Search />
-    <Button />
-    <SubItem />
-  </View>
+  <Container>
+    <HomeHeader />
+  </Container>
 );
 
 export default Home;

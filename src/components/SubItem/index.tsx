@@ -2,9 +2,9 @@ import React from 'react';
 
 import {Container, Text} from './styles';
 
-const SubItem: React.FC = () => (
+const SubItem: React.FC = ({children}) => (
   <Container>
-    <Text>Playlists</Text>
+    <Text>{children}</Text>
   </Container>
 );
 
