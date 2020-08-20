@@ -2,12 +2,12 @@ import React from 'react';
 import {Container} from './styles';
 
 import HomeHeader from '../../components/HomeHeader';
-import Playlist from '../../components/Playlist';
+import ListOfPlaylists from '../../components/ListOfPlaylists';
 
 const Home: React.FC = () => (
   <Container>
     <HomeHeader />
-    <Playlist />
+    <ListOfPlaylists />
   </Container>
 );
 
